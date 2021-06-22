@@ -7,13 +7,13 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class ViewController: UIViewController {
+    @IBOutlet weak var mapView: GMSMapView!
 
     @IBOutlet weak var helloTextLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        helloTextLabel.text = "Hello".localize()
     }
 }

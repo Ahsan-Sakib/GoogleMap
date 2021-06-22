@@ -148,6 +148,7 @@
 				CE2A6E5725DCB96C00203C4A /* Frameworks */,
 				CE2A6E5825DCB96C00203C4A /* Resources */,
 				36FF09368F9B2D221A12EF5A /* [CP] Embed Pods Frameworks */,
+				11E6D47F585D89CA48555181 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +208,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11E6D47F585D89CA48555181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Base Application/Pods-Base Application-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Base Application/Pods-Base Application-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Base Application/Pods-Base Application-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36FF09368F9B2D221A12EF5A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,7 +439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sakibwrold.Base-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakibwrold.googlemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sakibwrold.Base-Application";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakibwrold.googlemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

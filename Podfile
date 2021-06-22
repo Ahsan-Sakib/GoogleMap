@@ -10,5 +10,6 @@ target 'Base Application' do
   pod 'Moya'   #For Network call
 
   pod 'Reusable' #For some reuseable feature
+  pod 'GoogleMaps'
 
 end
